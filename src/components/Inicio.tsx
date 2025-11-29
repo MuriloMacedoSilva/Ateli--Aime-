@@ -21,10 +21,10 @@ export default function Inicio() {
                 <p className="text-gray-600 text-[16px] font-normal">Crio peças únicas e especiais, com dedicação, qualidade e amor em cada detalhe. Do simples ajuste à peça sob medida dos seus sonhos.</p>
                 <div className="flex gap-3 mt-5">
                     <button className="bg-pink-600 text-white p-2 px-4 rounded-[10px] cursor-pointer hover:bg-pink-700 transition duration-100 text-[15px] font-semibold">Conheça Nossos Serviços</button>
-                    <button className="border text-pink-600 text-[15px] px-4 border-pink-600 rounded-[10px] p-2 hover:text-black transition duration-100 font-semibold">Ver Galeria</button>
+                    <button className="border text-pink-600 text-[15px] cursor-pointer px-4 border-pink-600 rounded-[10px] p-2 hover:text-black transition duration-100 font-semibold">Ver Galeria</button>
                 </div>
             </div>
-            <div className='max-w-[600px] max-h-[600px] flex shadow-2xl relative rounded-2xl'>
+            <div className='max-w-[600px] max-h-[600px] flex shadow-2xl relative rounded-2xl cursor-grab'>
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={10}

@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import Inicio from "../components/Inicio"
+import Servicos from "../components/Servicos"
 import Sobre from "../components/Sobre"
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
             <Header/>
             <Inicio/>
             <Sobre/>
+            <Servicos/>
         </div>
     )
 }

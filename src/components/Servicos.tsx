@@ -79,9 +79,9 @@ export default function Servicos() {
             <div className="w-[90%] grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-5 p-1">
                 {
                     cards.map((CardItem) => (
-                        <div key={CardItem.id} className="rounded-3xl overflow-hidden hover:shadow-lg transition duration-100 border border-pink-200 flex flex-col w-auto">
+                        <div key={CardItem.id} className="bg-white rounded-3xl overflow-hidden hover:shadow-lg transition duration-100 border border-pink-200 flex flex-col w-auto">
                             <img src={CardItem.image} alt="imagens servicos" className="w-full h-[230px]" />
-                            <div className="bg-white transition duration-200 rounded-3xl  gap-6 p-4 flex flex-col h-full">
+                            <div className="transition duration-200 rounded-3xl  gap-6 p-4 flex flex-col h-full">
                                 <h2 className="text-black w-full text-[17px]">{CardItem.titulo}</h2>
                                 <p className="text-gray-800 text-[16px] w-full flex justify-center items-center h-[60px]">{CardItem.texto}</p>
                                 <ul className="text-gray-800 text-[14px]">

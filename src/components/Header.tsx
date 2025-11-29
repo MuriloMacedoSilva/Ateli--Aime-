@@ -15,7 +15,7 @@ export default function Header() {
                     <li><a href="" className="cursor cursor-pointer text-gray-600 hover:text-pink-600 transition transform duration-100">Contato</a></li>
                 </ul>
             </nav>
-            <a href="" className="p-2 px-4 text-[14px] bg-pink-600 text-white rounded-[10px] cursor-pointer hover:bg-pink-700 transform transition duration-100 absolute md:right-12 right-4 font-semibold">Agende sua consulta</a>
+            <a href="" className="p-2 px-4 text-[14px] bg-pink-600 text-white cursor-pointer hover:bg-pink-700 transform transition duration-100 absolute md:right-12 right-4 font-semibold rounded-md">Agende sua consulta</a>
         </header>
     )
 }

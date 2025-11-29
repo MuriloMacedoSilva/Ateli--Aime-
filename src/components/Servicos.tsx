@@ -70,8 +70,8 @@ export default function Servicos() {
 
 
     return (
-        <div className="bg-orange-50 flex flex-col gap-7 w-screen px-3 pt-9 pb-2 items-center">
-            <div className="bg-pink-200 rounded-3xl flex items-center justify-center py-3 px-4">
+        <div className="bg-pink-50 flex flex-col gap-7 w-screen px-3 py-17 items-center">
+            <div className="bg-pink-200 rounded-md flex items-center justify-center py-3 px-4">
                 <h2 className="text-pink-600 text-[16px]">Nossos Serviços</h2>
             </div>
             <p className="text-black text-[16px] max-w-[500px]">Soluções completas em costura para você</p>
@@ -79,7 +79,7 @@ export default function Servicos() {
             <div className="w-[90%] grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-5 p-1">
                 {
                     cards.map((CardItem) => (
-                        <div key={CardItem.id} className="bg-white rounded-3xl overflow-hidden hover:shadow-lg transition duration-100 border border-pink-200 flex flex-col w-auto">
+                        <div key={CardItem.id} className="bg-white rounded-md overflow-hidden hover:shadow-lg transition duration-100 border border-pink-200 flex flex-col w-auto">
                             <img src={CardItem.image} alt="imagens servicos" className="w-full h-[230px]" />
                             <div className="transition duration-200 rounded-3xl  gap-6 p-4 flex flex-col h-full">
                                 <h2 className="text-black w-full text-[17px]">{CardItem.titulo}</h2>
